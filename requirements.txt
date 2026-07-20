@@ -1,0 +1,15 @@
+# --- Banco de dados -----------------------------------------------------------
+mysql-connector-python>=8.0.33
+
+# --- Extracao / download (Fase 1 - baixa o .zip do Google Drive) --------------
+gdown>=5.0.0
+
+# --- Manipulacao de dados (Fase 1 e 2) -----------------------------------------
+pandas>=2.0.0
+
+# --- Visualizacao (Fase 3 - graficos da camada Gold) ---------------------------
+matplotlib>=3.7.0
+
+# --- Notebook (Fase 3) ----------------------------------------------------------
+jupyter>=1.0.0
+ipykernel>=6.25.0
