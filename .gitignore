@@ -1,0 +1,23 @@
+# --- Credenciais -------------------------------------------------------------
+.env
+
+# --- Dados brutos (baixados/gerados pelo pipeline, nao versionados) ----------
+*.zip
+*.csv
+data/
+
+# --- Python --------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- Jupyter ---------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Sistema operacional / editores ----------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
